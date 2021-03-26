@@ -29,6 +29,7 @@ int main(int argc, char* argv[])
 	if (argc != 3)
 	{
 		cerr << "入参个数有误" << endl;
+		return 0;
 	}
 	string inputfilename(argv[1]);
 	string outputfilename(argv[2]);
